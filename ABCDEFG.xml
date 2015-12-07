@@ -7,6 +7,9 @@
             <field name="NUM">500</field>
           </block>
         </value>
+        <next>
+          <block type="movement_stop" id="113"></block>
+        </next>
       </block>
     </next>
   </block>
