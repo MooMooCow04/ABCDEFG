@@ -1,8 +1,14 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="led_select" id="13" inline="true" x="101" y="81">
+  <block type="led_select" id="135" inline="true" x="167" y="56">
     <field name="ACTION">ON</field>
-    <value name="LED">
-      <block type="math_random" id="86"></block>
-    </value>
+    <next>
+      <block type="robot_delay" id="137" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="144">
+            <field name="NUM">1000</field>
+          </block>
+        </value>
+      </block>
+    </next>
   </block>
 </xml>
