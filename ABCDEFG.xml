@@ -2,13 +2,8 @@
   <block type="led_select" id="135" inline="true" x="167" y="56">
     <field name="ACTION">ON</field>
     <value name="LED">
-      <block type="math_single" id="160" inline="true">
-        <field name="OP">ABS</field>
-        <value name="NUM">
-          <block type="math_number" id="167">
-            <field name="NUM">0</field>
-          </block>
-        </value>
+      <block type="sensor_object" id="198">
+        <field name="OBJECT">LEFTFRONT</field>
       </block>
     </value>
     <next>
